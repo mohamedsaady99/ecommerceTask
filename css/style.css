@@ -1,0 +1,597 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    height: 1000px;
+}
+/*Start Navbar*/
+.top-navbar div
+{
+    float: left;
+}
+.top-navbar div button
+{
+    background-color: #db8822;
+    font-size: 12px;
+}
+.top-navbar ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ .top-navbar ul li a
+{
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+}
+.top-navbar ul li 
+{
+    float: left;
+    border-color:#db8822;
+}
+.top-navbar ul li:first-of-type 
+{
+    margin-left: 363px;
+    border-color:#db8822;
+}
+.top-navbar ul li:last-of-type 
+{
+    background-color: #db8822;
+    position: absolute;
+    right: 0;
+}
+.top-navbar ul li span
+{
+    color: red;
+}
+.middle-navbar
+{
+    background-color: black;
+    display: flex;
+}
+.middle-navbar a:last-of-type
+{
+    margin-left: 100px;
+}
+.middle-navbar a input
+{
+    height: 40px;
+    width: 450px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.middle-navbar a button
+{
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -4px;
+    color: #9a9292;
+}
+.middle-navbar a button:hover
+{
+    color: black;
+}
+.middle-navbar form
+{
+    margin-top: 37px;
+}
+.navbar
+{
+    font-weight: 600;
+    padding: 0px;
+}
+.bg-light
+{
+    background-color: #db8822 !important;
+}
+.navbar-nav
+{
+    margin-left: 19px;
+}
+.nav-item
+{
+    margin-right: 45px;
+}
+.nav-link
+{
+    color: black !important;
+}
+.navbar .dropdown-content
+{
+    background-color: gray;
+    display: none;
+}
+.navbar .dropdown:hover .dropdown-content
+{
+    display: block;
+}
+.navbar .dropdown-content a
+{
+    display: block;
+}
+.ads 
+{
+    background-color: black;
+    color: #db8822;
+    padding: 0 0 0 40px;
+    margin: 0px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.ads p
+{
+    margin-top: 18px;
+}
+.ads img
+{
+    width:100%;
+}
+.breadcrumb
+{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+.breadcrumb a
+{
+    text-decoration: none;
+}
+/*End Navbar*/
+/*Start Products Carousel*/
+.tshirt .carousel-item
+{
+    margin-bottom: 70px;
+}
+.tshirt .carousel-indicators li 
+{
+    text-indent: 0;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+.tshirt .carousel-indicators li img
+{
+    width: 60px;
+    height: 60px;
+}
+.black-tshirt ,.white-tshirt
+{
+    display: none
+}
+/*End Products Carousel*/
+/*Start Products info */
+.right-side 
+{
+    padding: 35px 35px 0 35px;
+}
+h1
+{
+    font-size: 21px;
+    font-weight: 600;
+}
+span
+{
+    color: #2fa550;
+}
+h4
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.right-side p
+{
+    width: 90%;
+    border: 1px solid #2fa550;
+    padding: 10px;
+}
+.colors-and-sizes
+{
+    width: 90%;
+    background-color:  #edeeee;
+    padding: 10px;
+}
+.colors-and-sizes span
+{
+    color: black;
+}
+.colors-and-sizes span:first-of-type
+{
+    font-weight: 600;
+}
+.colors-and-sizes label
+{
+    font-weight: 600;
+}
+.colors-and-sizes a
+{
+    width: 40px;
+    height:40px;
+    padding: 10px ;
+    border: 1px solid #e5cece;
+    border-radius: 50%;
+    display: inline-block;
+}
+.colors-and-sizes a:first-of-type
+{
+    background-color: #808000;
+}
+.colors-and-sizes a:nth-of-type(2)
+{
+    background-color: black;
+}
+.colors-and-sizes a:nth-of-type(3)
+{
+    background-color: white;
+}
+.colors-and-sizes a:last-of-type
+{
+    width: 80%;
+    height:40px;
+    padding: 10px ;
+    border: none;
+    border-radius: none;
+    display: inline;
+    margin-left: 150px;
+}
+.colors-and-sizes button
+{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 5px 20px 5px;
+    padding:0 10px ;
+    height: 33px;
+}
+.colors-and-sizes button:hover
+{
+    background-color:#db8822;
+    transition: .5s;
+}
+.colors-and-sizes button:first-of-type , .colors-and-sizes button:last-of-type 
+{
+    background-color: white;
+}
+.quantity select
+{
+    width: 70px;
+    padding: 10px;
+}
+.quantity button
+{
+    background-color:#db8822 !important;
+    width: 266px;
+    height: 46px;
+    margin-left: 10px;
+}
+.quantity button:hover
+{
+    background-color: #c57a1f;
+    
+}
+.quantity a
+{
+    background-color: transparent!important;
+}
+/*End Products info */
+.earn
+{
+    border:  1px solid black;
+    width: 90%;
+    padding: 13px;
+    margin-top: 30px;
+}
+/*Start modal popup*/
+.modal-content .close
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    border-bottom-left-radius: 5px;
+    box-shadow: -2px 2px 2px 2px gray;
+}
+.modal-header
+{
+    text-align: center;
+    border-bottom: none;
+}
+.modal-header h2
+{
+    
+    font-size: 40px;
+    margin: 20px 60px 0 60px ;
+}
+.modal-header p
+{
+    padding-left: 70px;
+}
+.modal-header h6
+{
+    padding-left: 100px;
+    margin-top: 20px;
+}
+.modal-body form input
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.modal-body form input:last-of-type
+{
+    background-color:#db8822;
+    margin-bottom: 30px;
+}
+/*End modal popup*/
+.shipping , .details ,.description
+{
+    width: 90%;
+    border-top: 1px solid lightgray;
+    margin-top: 20px;
+    padding-top: 10px;
+    z-index: 3;
+}
+.shipping button , .details button ,.description button
+{
+    position: absolute;
+    right: 40px;
+    background-color: white;
+    border: none;
+}
+.shipping a , .details a ,.description a
+{
+    width: 90%;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+.shipping .card-body ,.details .card-body ,.description .card-body
+{
+    border: none; 
+    padding-left: 0px;
+}
+/*End tshirt*/
+/*Start Products Carousel*/
+.products
+{
+    margin-top: 100px;
+}
+.products-shown
+{
+   border-top: 2px solid black; 
+    width:170px; 
+}
+.products .badge
+{
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
+.products h5
+{
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*End Products Carousel*/
+/*start Footer*/
+footer 
+{
+    background-color: #e9eaea;
+    height: 200px;
+}
+footer .container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .container div
+{
+    float: left;
+}
+footer .btn
+{
+    width: 100%;
+    background-color:#db8822;
+}
+footer ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 25px;
+}
+footer ul li
+{
+    margin-bottom: 10px;
+}
+footer a
+{
+    color: black;
+}
+/*End Footer*/
+/*Start media Queries*/
+@media (max-width:479px)
+{
+    .top-navbar
+    {
+        display: none;
+    }
+     .middle-navbar a input ,.middle-navbar a button
+    {
+        display: none;
+    }
+    .middle-navbar a img
+    {
+        width: 93px;
+    }
+    .ads 
+    {
+        display: none;
+    }
+    .breadcrumb a
+    {
+        font-size: 10px;
+    }
+    h1
+    {
+        font-size: 15px;
+    }
+    .colors-and-sizes ,p,h1,span ,h4, .earn,.shipping,.details ,.description
+    {
+        margin: 13px;  
+    }
+    .quantity button
+    {
+        width: 147px !important;
+    }
+    .colors-and-sizes a:nth-of-type(4)
+    {
+        margin-left: 22%;
+    }
+    .colors-and-sizes a:last-of-type
+    {
+        margin-left: 27%;
+    }
+    .colors-and-sizes button
+    {
+        padding: 0 8px;
+        margin: 5px 0 20px 0px;
+    }
+    .modal-header h2 
+    {
+        font-size: 24px;
+        margin: 20px 0px 0 23px;
+    }
+    .modal-header p
+    {
+        padding-left: 12px;
+        font-size: 12px;
+    }
+    .modal-header h6 
+    {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    footer
+    {
+        height: 600px;
+    }
+    footer .container div
+    {
+        border-bottom: 1px solid lightgray;
+    }
+}
+@media (min-width:480px)and (max-width:767px)
+{
+    .top-navbar
+    {
+        display: none;
+    }
+    .middle-navbar a input ,.middle-navbar a button
+    {
+        display: none;
+    }
+    .middle-navbar a img
+    {
+        width: 190px;
+    }
+    .colors-and-sizes ,p,h1,span ,h4, .earn,.shipping,.details ,.description
+    {
+        margin: 25px;  
+    }
+    .colors-and-sizes a:last-of-type
+    {
+        margin-left: 33%;
+    }
+    footer
+    {
+        height: 400px;
+    }
+    footer .container div
+    {
+        
+        border-bottom: 1px solid lightgray;
+    }
+    
+}
+@media (min-width:768px)and (max-width:991px)
+{
+    .top-navbar ul li:first-of-type 
+    {
+        margin-left: 0px;
+    }
+    .middle-navbar a input 
+    {
+        width: 180px;
+    }
+    .middle-navbar a img
+    {
+        width: 220px;
+    }
+    .nav-item
+    {
+        margin-right: 5px;
+    }
+    .colors-and-sizes a:last-of-type
+    {
+        margin-left: 100px;
+    }
+    .colors-and-sizes button 
+    {
+        margin: 5px 0px 20px 0px;
+        padding: 0 7px;
+    }
+    .quantity button
+    {
+        width: 114px;
+    }
+}
+@media (min-width:992px)and (max-width:1199px)
+{
+    .top-navbar ul li:first-of-type 
+    {
+        margin-left: 160px;
+    }
+    .middle-navbar a input
+    {
+        width: 250px;
+    }
+    .nav-item
+    {
+        margin-right: 15px;
+    }
+    .colors-and-sizes button 
+    {
+        margin: 5px 0px 20px 5px;
+        padding: 0 10px;
+    }
+    .quantity button
+    {
+        width: 216px;
+    }
+    
+}
+@media (min-width:1200px)
+{
+    .top-navbar ul li:first-of-type 
+    {
+        margin-left: 350px;
+    }
+}
+/*End media Queries*/
